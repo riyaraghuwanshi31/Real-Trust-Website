@@ -17,7 +17,13 @@ app.get('/', (req, res) => {
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin: [""],
+        methods:["POST","GET"],
+        credentials:true
+    }
+));
 app.use("/uploads", express.static("uploads")); // Serve static files
 
 // Routes
@@ -26,9 +32,9 @@ app.use("/api/clients", clientRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
 
-// Database Connection
+// Database Connection   
 mongoose
-  .connect("mongodb://localhost:27017/project_management", {
+  .connect("mongodb+srv://riyaraghuwanshi0831:portfolioPass@fullstack-mern.grep1.mongodb.net/project_management?retryWrites=true&w=majority&appName=Fullstack-Mern", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
