@@ -13,7 +13,7 @@ const ProjectsAndClients = () => {
     // Fetch projects data
     const fetchProjects = async () => {
       try {
-        const response = await fetch("http://real-trust-web.vercel.app/api/projects");
+        const response = await fetch("https://real-trust-web.vercel.app/api/projects");
         const data = await response.json();
         setProjects(data);
       } catch (err) {
@@ -24,7 +24,7 @@ const ProjectsAndClients = () => {
     // Fetch clients data
     const fetchClients = async () => {
       try {
-        const response = await fetch("http://real-trust-web.vercel.app/api/clients");
+        const response = await fetch("https://real-trust-web.vercel.app/api/clients");
         const data = await response.json();
         setClients(data);
       } catch (err) {
