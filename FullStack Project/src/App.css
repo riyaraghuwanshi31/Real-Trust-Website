@@ -34,10 +34,18 @@ body {
   font-weight: 500;
   color: #333;
   cursor: pointer;
+  
 }
+
+
 
 .right ul li:hover {
   color: #007bff;
+}
+
+.right ul li a{
+  text-decoration: none;
+  color: #333;
 }
 
 button {
