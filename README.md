@@ -89,27 +89,6 @@ Here are some of the key API endpoints:
 -Contact Form Submission: POST /api/contact/submit - Submit contact form data
 -Subscribe: POST /api/subscriptions/subscribe - Subscribe to newsletter
 
-Additional Notes
-For any issues or feature requests, please use the repository's issue tracker.
-
-
-
-### Step 2: Push the `README.md` File to GitHub
-
-1. Initialize a Git repository if you haven't already:
-   ```bash
-           git init
-2. Stage and commit your README.md file:
-bash
-        git add README.md
-        
-git commit -m "Add README with project details"
-
-3. Push to your GitHub repository:
-bash
-        git push origin main
-
-
 
 
         
