@@ -5,16 +5,16 @@ const Navbar = () => {
     <div>
       <nav className='navB'>
         <div className="left">
-            <img src="/images/logo.svg" alt="" />
+          <img src="/images/logo.svg" alt="" />
         </div>
         <div className="right">
-            <ul>
-                <li>HOME</li>
-                <li>SERVICES</li>
-                <li>ABOUT PRODUCT</li>
-                <li>CLIENTS</li>
-            </ul>
-            <button> CONTACT </button>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#about-product">ABOUT PRODUCT</a></li>
+            <li><a href="#subs">SUBSCRIBE</a></li>
+          </ul>
+          <button> CONTACT </button>
         </div>
       </nav>
     </div>
