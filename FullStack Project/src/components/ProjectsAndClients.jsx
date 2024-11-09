@@ -24,7 +24,7 @@ const ProjectsAndClients = () => {
     // Fetch clients data
     const fetchClients = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/clients");
+        const response = await fetch("http://real-trust-web.vercel.app/api/clients");
         const data = await response.json();
         setClients(data);
       } catch (err) {
