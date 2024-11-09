@@ -34,10 +34,9 @@ app.use("/api/subscriptions", subscriptionRoutes);
 
 // Database Connection   
 mongoose
-  .connect("mongodb+srv://riyaraghuwanshi0831:portfolioPass@fullstack-mern.grep1.mongodb.net/project_management?retryWrites=true&w=majority&appName=Fullstack-Mern", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb+srv://riyaraghuwanshi0831:riyaFullstackPass@fullstack-mern.grep1.mongodb.net/real-trust?retryWrites=true&w=majority&appName=Fullstack-Mern", {
+
+    })
   .then(() => console.log("MongoDB connected..."))
   .catch((err) => console.log(err));
 
