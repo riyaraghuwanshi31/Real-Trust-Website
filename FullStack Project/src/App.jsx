@@ -6,14 +6,25 @@ import NewsAndSubscription from "./components/NewsAndSubscription";
 import "./App.css";
 
 export const App = () => {
-  return(
+  return (
     <>
-      <Navbar/>
-      <HeroSection/>
-      <AboutUs/>
-      <ProjectsAndClients/>
-      {/* <bottomSection/> */}
-      <NewsAndSubscription/>
+      <Navbar />
+
+      <div id="home">
+        <HeroSection />
+      </div>
+
+      <div id="services">
+        <AboutUs />
+      </div>
+
+      <div id="about-product">
+        <ProjectsAndClients />
+      </div>
+
+      <div id="subs">
+        <NewsAndSubscription />
+      </div>
     </>
   )
 }
