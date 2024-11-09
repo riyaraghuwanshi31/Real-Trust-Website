@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.use(bodyParser.json());
 app.use(cors(
     {
-        origin: ["https://real-trust-alpha.vercel.app/"],
+        origin: ["https://real-trust-alpha.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
