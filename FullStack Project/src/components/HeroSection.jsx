@@ -26,7 +26,7 @@ const HeroSection = () => {
         };
 
         try {
-            const response = await fetch("http://localhost:5000/api/contact/submit", {
+            const response = await fetch("https://real-trust-web.vercel.app/api/contact/submit", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
