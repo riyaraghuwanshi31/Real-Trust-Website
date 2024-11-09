@@ -13,7 +13,7 @@ const NewsAndSubscription = () => {
 
     // Send POST request to the backend
     try {
-      const response = await fetch("http://real-trust-web.vercel.app/api/subscriptions/subscribe", {
+      const response = await fetch("https://real-trust-web.vercel.app/api/subscriptions/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
